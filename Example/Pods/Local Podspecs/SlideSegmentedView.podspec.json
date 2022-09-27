@@ -1,0 +1,22 @@
+{
+  "name": "SlideSegmentedView",
+  "version": "0.1.0",
+  "summary": "A short description of SlideSegmentedView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Alexiusy/SlideSegmentedView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Alexiusy": "andreboot42@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Alexiusy/SlideSegmentedView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "SlideSegmentedView/Classes/**/*"
+}

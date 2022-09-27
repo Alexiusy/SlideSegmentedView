@@ -9,6 +9,18 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+### Sample Code
+```swift
+let segmentedView = SlideSegmentedView()
+segmentedView.normalColor = UIColor(red: 0.94, green: 0.94, blue: 0.94, alpha: 1)
+segmentedView.selectedColor = UIColor(red: 0.2, green: 0.2, blue: 0.2, alpha: 1)
+segmentedView.startColors = [.green, .blue]
+segmentedView.endColors = [.orange, .cyan]
+segmentedView.numberOfSegments = 20
+segmentedView.currentIndexChanged = { index in
+    print("index \(index) selected")
+}
+```
 ## Requirements
 
 ## Installation

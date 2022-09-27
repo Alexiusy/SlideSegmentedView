@@ -1,0 +1,16 @@
+PODS:
+  - SlideSegmentedView (0.1.0)
+
+DEPENDENCIES:
+  - SlideSegmentedView (from `../`)
+
+EXTERNAL SOURCES:
+  SlideSegmentedView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SlideSegmentedView: fb561fdcfb059eb0afc95cfc1800bc90bff0d853
+
+PODFILE CHECKSUM: b0cd6ab3bde3647c9e1ca92f6f7bacdd8b2ce0cf
+
+COCOAPODS: 1.11.3

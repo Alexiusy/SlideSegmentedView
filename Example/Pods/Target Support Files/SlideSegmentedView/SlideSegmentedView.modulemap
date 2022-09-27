@@ -1,0 +1,6 @@
+framework module SlideSegmentedView {
+  umbrella header "SlideSegmentedView-umbrella.h"
+
+  export *
+  module * { export * }
+}

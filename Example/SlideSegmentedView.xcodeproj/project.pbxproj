@@ -28,10 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		028C2A776D1FD033F4424534 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		028C2A776D1FD033F4424534 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		0F526B75C91FD7D0F56109EE /* Pods-SlideSegmentedView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlideSegmentedView_Tests.release.xcconfig"; path = "Target Support Files/Pods-SlideSegmentedView_Tests/Pods-SlideSegmentedView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		17E871F1EED681748AD42EDF /* Pods_SlideSegmentedView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlideSegmentedView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D9374E61C191C231E2CDB06 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3D9374E61C191C231E2CDB06 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		45DCCC150EEC167C42303410 /* Pods_SlideSegmentedView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlideSegmentedView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* SlideSegmentedView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideSegmentedView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6556B72CE5AB405A75625E31 /* Pods-SlideSegmentedView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlideSegmentedView_Example.debug.xcconfig"; path = "Target Support Files/Pods-SlideSegmentedView_Example/Pods-SlideSegmentedView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8204C6FB6F75CD409D0E053E /* SlideSegmentedView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SlideSegmentedView.podspec; path = ../SlideSegmentedView.podspec; sourceTree = "<group>"; };
+		8204C6FB6F75CD409D0E053E /* SlideSegmentedView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SlideSegmentedView.podspec; path = ../SlideSegmentedView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BC932B0AA0D756BBC6C56492 /* Pods-SlideSegmentedView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlideSegmentedView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SlideSegmentedView_Tests/Pods-SlideSegmentedView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED934601472F8AFA17ABB939 /* Pods-SlideSegmentedView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlideSegmentedView_Example.release.xcconfig"; path = "Target Support Files/Pods-SlideSegmentedView_Example/Pods-SlideSegmentedView_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +77,6 @@
 				BC932B0AA0D756BBC6C56492 /* Pods-SlideSegmentedView_Tests.debug.xcconfig */,
 				0F526B75C91FD7D0F56109EE /* Pods-SlideSegmentedView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -419,7 +419,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +465,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
