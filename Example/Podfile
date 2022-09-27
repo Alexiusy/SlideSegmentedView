@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'SlideSegmentedView_Example' do
+  pod 'SlideSegmentedView', :path => '../'
+
+  target 'SlideSegmentedView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
