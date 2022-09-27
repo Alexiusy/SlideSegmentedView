@@ -29,6 +29,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
+  s.swift_versions = '5.0'
 
   s.source_files = 'SlideSegmentedView/Classes/**/*'
   
@@ -37,6 +38,6 @@ Pod::Spec.new do |s|
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit'#, 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
